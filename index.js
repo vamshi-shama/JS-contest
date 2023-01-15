@@ -1,6 +1,7 @@
 
 const details = document.getElementById("details");
-details.addEventListener('click', getDetails)
+details.addEventListener('click', getDetails);
+
 function getDetails() {
     const latitude = data.latitude;
     const longitude = data.longitude;
@@ -12,5 +13,5 @@ function getDetails() {
         position: { lat: latitude, lng: longitude },
         map: map
     });
-
 }
+
